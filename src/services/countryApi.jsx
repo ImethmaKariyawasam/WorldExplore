@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://restcountries.com/v3.1';
+const API_URL = process.env.REACT_APP_COUNTRY_API_URL || 'https://restcountries.com/v3.1';
 
 export const fetchAllCountries = async () => {
   try {
