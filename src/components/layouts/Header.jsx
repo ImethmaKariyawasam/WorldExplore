@@ -67,7 +67,7 @@ const Header = () => {
               letterSpacing: '0.5px', 
               textShadow: '0 2px 4px rgba(0,0,0,0.2)' 
             }}>
-              World<span style={{ color: '#36D1DC' }}>Explorer</span>
+              Hola<span style={{ color: '#36D1DC' }}>Globe!</span>
             </span>
             <div className="d-none d-sm-block" style={{ 
               fontSize: '10px', 
